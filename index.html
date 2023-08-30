@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Revision</title>
+  </head>
+  <style>
+    :root {
+      font-size: 30px; /* 1rem = 30px */
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-size: 20px; /* 1em = 20px */
+    }
+  </style>
+  <body>
+    <!-- hello this is a comment  -->
+    <h1 id="top">Blog article</h1>
+    <h2>This is about HTML and how it works</h2>
+    <p>
+      <u>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos sint</u>
+      laborum reprehenderit dolorem tempora, quasi, voluptate vero distinctio
+      amet, commodi repellendus optio inventore nesciunt quos. Modi dolorum
+      repellat dignissimos <br /><i>molestias blanditiis</i>, exercitationem
+      neque dolorem voluptates.
+      <b
+        ><i><u>Exercitationem</u></i></b
+      >
+      laboriosam atque in aperiam maxime libero at dolorum harum temporibus!
+      Cupiditate sit vitae error.
+    </p>
+
+    <p>
+      <strong>Lorem ipsum</strong>, dolor sit amet consectetur adipisicing elit.
+      Possimus <b>porro</b> voluptas in ipsam, itaque fugiat quisquam facilis
+      quo minima perferendis?
+    </p>
+
+    <p>Line 1<br />Line 2</p>
+
+    <h1>Headings</h1>
+
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+
+    <!-- 1.17 * 20px = 25.40px -->
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <h1>Lists</h1>
+
+    <!-- Ordered List -->
+    <ol>
+      <li>John</li>
+      <li>Jane</li>
+      <li>Alex</li>
+    </ol>
+
+    <!-- Unordered List -->
+    <ul style="list-style-type: circle">
+      <li>Go the gym</li>
+      <li>Go to the market</li>
+      <li>Wash clothes</li>
+    </ul>
+
+    <a target="_blank" href="https://google.com">Link</a>
+    <br />
+    <a href="#top">Go to top</a>
+    <br />
+    <a href="mailto:jayeshsadhwani99@gmail.com">Mail me</a>
+    <br />
+    <a href="/other.html" download>Download HTML</a>
+
+    <form method="get" action="/">
+      <input type="text" name="name" required />
+      <input type="password" name="password" required />
+      <input
+        type="number"
+        name="example"
+        oninvalid="this.setCustomValidity('it is invalid write something else')"
+        min="1"
+        max="10"
+        required
+      />
+      <select>
+        <option value="name">Name</option>
+        <option value="name2">Name 2</option>
+        <option value="name3" selected>Option 3</option>
+      </select>
+      <textarea rows="4" cols="10"></textarea>
+      <input type="reset" />
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <h1>Media</h1>
+    <img
+      src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80"
+      alt="This is an example"
+      height="200px"
+    />
+
+    <audio controls>
+      <source src="audio.mp3" />
+    </audio>
+
+    <video autoplay muted controls height="200px">
+      <source
+        src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+      />
+    </video>
+
+    <h1>Tables</h1>
+    <table border="2" style="border-collapse: collapse">
+      <caption>
+        List of People
+      </caption>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Age</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>John</td>
+          <td>23</td>
+        </tr>
+
+        <tr>
+          <td>2</td>
+          <td>Jane</td>
+          <td>22</td>
+        </tr>
+
+        <tr>
+          <td>3</td>
+          <td>Alex</td>
+          <td>30</td>
+        </tr>
+
+        <tr>
+          <td rowspan="2">4</td>
+          <td>Akash</td>
+          <td>23</td>
+        </tr>
+
+        <tr>
+          <td>Aman</td>
+          <td>25</td>
+        </tr>
+
+        <tr>
+          <td colspan="2">Alice</td>
+          <td>90</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
